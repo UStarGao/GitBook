@@ -10,6 +10,6 @@ jobs:
     - name: Checkout action
       uses: actions/checkout@v2
     - name: Gitbook Action
-      uses: ustargao.github.io/GitBook/
+      uses: ustargao.github.io/GitBook@v1.1
       with:
         token: ${{ secrets.PERSONAL_TOKEN }}
